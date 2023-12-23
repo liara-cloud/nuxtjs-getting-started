@@ -1,75 +1,18 @@
-# Nuxt 3 Minimal Starter
+# NuxtJS apps getting started
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Example of how deploy a simple NuxtJS project on [liara](https://liara.ir).
 
-## Setup
+## Deploying
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+[Create New NuxtJS App](https://console.liara.ir/apps/create) & install the [Liara CLI](https://docs.liara.ir/cli/install)
 
 ```bash
-# npm
-npm run dev
+$ git clone https://github.com/liara-cloud/nuxtjs-getting-started # or clone your own fork
 
-# pnpm
-pnpm run dev
+$ cd nuxtjs-getting-started
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
+$ liara deploy
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Documentation
+Read more on liara [NuxtJS apps documentation](https://docs.liara.ir/instructions/nuxtjs)
