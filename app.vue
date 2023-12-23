@@ -9,7 +9,7 @@
 <style>
   @font-face {
     font-family: BeautifulPeople;
-    src: url('~/BeautifulPeople.ttf');
+    src: url('/BeautifulPeople.ttf');
   }
 
   body {
